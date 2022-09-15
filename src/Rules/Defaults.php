@@ -1,9 +1,9 @@
 <?php
 
-namespace AshF\Validation\Rules;
+namespace mightygraphics\Validation\Rules;
 
-use AshF\Validation\Rule;
-use AshF\Validation\Rules\Interfaces\ModifyValue;
+use mightygraphics\Validation\Rule;
+use mightygraphics\Validation\Rules\Interfaces\ModifyValue;
 
 class Defaults extends Rule implements ModifyValue
 {

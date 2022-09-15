@@ -1,6 +1,6 @@
 <?php
 
-namespace AshF\Validation\Rules\Interfaces;
+namespace mightygraphics\Validation\Rules\Interfaces;
 
 interface ModifyValue
 {

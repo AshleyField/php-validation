@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rule;
+use mightygraphics\Validation\Rule;
 
 class Even extends Rule
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace AshF\Validation;
+namespace mightygraphics\Validation;
 
 use Closure;
-use AshF\Validation\Rules\Interfaces\BeforeValidate;
-use AshF\Validation\Rules\Interfaces\ModifyValue;
-use AshF\Validation\Rules\Required;
+use mightygraphics\Validation\Rules\Interfaces\BeforeValidate;
+use mightygraphics\Validation\Rules\Interfaces\ModifyValue;
+use mightygraphics\Validation\Rules\Required;
 
 class Validation
 {
@@ -38,7 +38,7 @@ class Validation
     /**
      * Constructor
      *
-     * @param \AshF\Validation\Validator $validator
+     * @param \mightygraphics\Validation\Validator $validator
      * @param array $inputs
      * @param array $rules
      * @param array $messages
@@ -77,7 +77,7 @@ class Validation
      * Get attribute by key
      *
      * @param string $attributeKey
-     * @return null|\AshF\Validation\Attribute
+     * @return null|\mightygraphics\Validation\Attribute
      */
     public function getAttribute(string $attributeKey)
     {
@@ -112,7 +112,7 @@ class Validation
     /**
      * Get ErrorBag instance
      *
-     * @return \AshF\Validation\ErrorBag
+     * @return \mightygraphics\Validation\ErrorBag
      */
     public function errors(): ErrorBag
     {
@@ -122,7 +122,7 @@ class Validation
     /**
      * Validate attribute
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Attribute $attribute
      * @return void
      */
     protected function validateAttribute(Attribute $attribute)
@@ -179,7 +179,7 @@ class Validation
     /**
      * Check whether given $attribute is array attribute
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Attribute $attribute
      * @return bool
      */
     protected function isArrayAttribute(Attribute $attribute): bool
@@ -191,7 +191,7 @@ class Validation
     /**
      * Parse array attribute into it's child attributes
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Attribute $attribute
      * @return array
      */
     protected function parseArrayAttribute(Attribute $attribute): array
@@ -321,9 +321,9 @@ class Validation
     /**
      * Add error to the $this->errors
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Attribute $attribute
      * @param mixed $value
-     * @param \AshF\Validation\Rule $ruleValidator
+     * @param \mightygraphics\Validation\Rule $ruleValidator
      * @return void
      */
     protected function addError(Attribute $attribute, $value, Rule $ruleValidator)
@@ -349,8 +349,8 @@ class Validation
     /**
      * Check the rule is optional
      *
-     * @param \AshF\Validation\Attribute $attribute
-     * @param \AshF\Validation\Rule $rule
+     * @param \mightygraphics\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Rule $rule
      * @return bool
      */
     protected function ruleIsOptional(Attribute $attribute, Rule $rule): bool
@@ -363,7 +363,7 @@ class Validation
     /**
      * Resolve attribute name
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Attribute $attribute
      * @return string
      */
     protected function resolveAttributeName(Attribute $attribute): string
@@ -383,9 +383,9 @@ class Validation
     /**
      * Resolve message
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Attribute $attribute
      * @param mixed $value
-     * @param \AshF\Validation\Rule $validator
+     * @param \mightygraphics\Validation\Rule $validator
      * @return mixed
      */
     protected function resolveMessage(Attribute $attribute, $value, Rule $validator): string
@@ -618,7 +618,7 @@ class Validation
     /**
      * Get Validator class instance
      *
-     * @return \AshF\Validation\Validator
+     * @return \mightygraphics\Validation\Validator
      */
     public function getValidator(): Validator
     {
@@ -661,7 +661,7 @@ class Validation
     /**
      * Set valid data
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Attribute $attribute
      * @param mixed $value
      * @return void
      */
@@ -689,7 +689,7 @@ class Validation
     /**
      * Set invalid data
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \mightygraphics\Validation\Attribute $attribute
      * @param mixed $value
      * @return void
      */

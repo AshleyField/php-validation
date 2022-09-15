@@ -1,7 +1,7 @@
 <?php
 
-namespace AshF\Validation;
+namespace mightygraphics\Validation;
 
-class RuleQuAshFException extends \Exception
+class RuleQumightygraphicsException extends \Exception
 {
 }
