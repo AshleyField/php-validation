@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Rules;
+namespace mightygraphics\Validation\Rules;
 
-use AshF\Validation\Rule;
+use mightygraphics\Validation\Rule;
 
 class RequiredIf extends Required
 {

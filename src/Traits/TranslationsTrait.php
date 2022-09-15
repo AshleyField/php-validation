@@ -1,6 +1,6 @@
 <?php
 
-namespace AshF\Validation\Traits;
+namespace mightygraphics\Validation\Traits;
 
 trait TranslationsTrait
 {

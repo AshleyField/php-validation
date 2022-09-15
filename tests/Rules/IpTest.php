@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\Ip;
+use mightygraphics\Validation\Rules\Ip;
 use PHPUnit\Framework\TestCase;
 
 class IpTest extends TestCase

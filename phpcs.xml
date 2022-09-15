@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="AshF validation coding standard">
-    <description>AshF validation coding standard</description>
+<ruleset name="mightygraphics validation coding standard">
+    <description>mightygraphics validation coding standard</description>
 
     <!-- display progress -->
     <arg value="p"/>

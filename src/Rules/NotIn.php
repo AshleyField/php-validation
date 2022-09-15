@@ -1,9 +1,9 @@
 <?php
 
-namespace AshF\Validation\Rules;
+namespace mightygraphics\Validation\Rules;
 
-use AshF\Validation\Helper;
-use AshF\Validation\Rule;
+use mightygraphics\Validation\Helper;
+use mightygraphics\Validation\Rule;
 
 class NotIn extends Rule
 {

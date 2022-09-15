@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\AlphaSpaces;
+use mightygraphics\Validation\Rules\AlphaSpaces;
 use PHPUnit\Framework\TestCase;
 
 class AlphaSpacesTest extends TestCase

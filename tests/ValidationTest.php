@@ -1,9 +1,9 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Validation;
-use AshF\Validation\Validator;
+use mightygraphics\Validation\Validation;
+use mightygraphics\Validation\Validator;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\Regex;
+use mightygraphics\Validation\Rules\Regex;
 use PHPUnit\Framework\TestCase;
 
 class RegexTest extends TestCase

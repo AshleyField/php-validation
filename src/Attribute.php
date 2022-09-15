@@ -1,6 +1,6 @@
 <?php
 
-namespace AshF\Validation;
+namespace mightygraphics\Validation;
 
 class Attribute
 {
@@ -14,13 +14,13 @@ class Attribute
     /** @var string|null */
     protected $alias;
 
-    /** @var \AshF\Validation\Validation */
+    /** @var \mightygraphics\Validation\Validation */
     protected $validation;
 
     /** @var bool */
     protected $required = false;
 
-    /** @var \AshF\Validation\Validation|null */
+    /** @var \mightygraphics\Validation\Validation|null */
     protected $primaryAttribute = null;
 
     /** @var array */
@@ -32,7 +32,7 @@ class Attribute
     /**
      * Constructor
      *
-     * @param \AshF\Validation\Validation  $validation
+     * @param \mightygraphics\Validation\Validation  $validation
      * @param string      $key
      * @param string|null $alias
      * @param array       $rules
@@ -55,7 +55,7 @@ class Attribute
     /**
      * Set the primary attribute
      *
-     * @param \AshF\Validation\Attribute $primaryAttribute
+     * @param \mightygraphics\Validation\Attribute $primaryAttribute
      * @return void
      */
     public function setPrimaryAttribute(Attribute $primaryAttribute)
@@ -77,7 +77,7 @@ class Attribute
     /**
      * Get primary attributes
      *
-     * @return \AshF\Validation\Attribute|null
+     * @return \mightygraphics\Validation\Attribute|null
      */
     public function getPrimaryAttribute()
     {
@@ -101,7 +101,7 @@ class Attribute
     /**
      * Add other attributes
      *
-     * @param \AshF\Validation\Attribute $otherAttribute
+     * @param \mightygraphics\Validation\Attribute $otherAttribute
      * @return void
      */
     public function addOtherAttribute(Attribute $otherAttribute)
@@ -122,7 +122,7 @@ class Attribute
     /**
      * Add rule
      *
-     * @param \AshF\Validation\Rule $rule
+     * @param \mightygraphics\Validation\Rule $rule
      * @return void
      */
     public function addRule(Rule $rule)

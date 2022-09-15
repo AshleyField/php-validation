@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\Json;
+use mightygraphics\Validation\Rules\Json;
 use PHPUnit\Framework\TestCase;
 
 class JsonTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace AshF\Validation;
+namespace mightygraphics\Validation;
 
 class ErrorBag
 {
