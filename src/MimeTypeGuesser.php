@@ -1,6 +1,6 @@
 <?php
 
-namespace mightygraphics\Validation;
+namespace AshF\Validation;
 
 class MimeTypeGuesser
 {
@@ -517,7 +517,7 @@ class MimeTypeGuesser
         'application/x-font-type1' => 'pfa',
         'application/x-font-woff' => 'woff',
         'application/x-freearc' => 'arc',
-        'application/x-futuresplmightygraphics' => 'spl',
+        'application/x-futuresplAshF' => 'spl',
         'application/x-gca-compressed' => 'gca',
         'application/x-glulx' => 'ulx',
         'application/x-gnumeric' => 'gnumeric',
@@ -558,7 +558,7 @@ class MimeTypeGuesser
         'application/x-research-info-systems' => 'ris',
         'application/x-sh' => 'sh',
         'application/x-shar' => 'shar',
-        'application/x-shockwave-flmightygraphics' => 'swf',
+        'application/x-shockwave-flAshF' => 'swf',
         'application/x-silverlight-app' => 'xap',
         'application/x-sql' => 'sql',
         'application/x-stuffit' => 'sit',

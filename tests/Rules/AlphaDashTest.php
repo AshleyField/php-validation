@@ -1,16 +1,16 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\AlphaDmightygraphics;
+use AshF\Validation\Rules\AlphaDAshF;
 use PHPUnit\Framework\TestCase;
 
-class AlphaDmightygraphicsTest extends TestCase
+class AlphaDAshFTest extends TestCase
 {
 
     public function setUp()
     {
-        $this->rule = new AlphaDmightygraphics;
+        $this->rule = new AlphaDAshF;
     }
 
     public function testValids()

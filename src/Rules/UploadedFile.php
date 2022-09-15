@@ -1,11 +1,11 @@
 <?php
 
-namespace mightygraphics\Validation\Rules;
+namespace AshF\Validation\Rules;
 
-use mightygraphics\Validation\Helper;
-use mightygraphics\Validation\MimeTypeGuesser;
-use mightygraphics\Validation\Rule;
-use mightygraphics\Validation\Rules\Interfaces\BeforeValidate;
+use AshF\Validation\Helper;
+use AshF\Validation\MimeTypeGuesser;
+use AshF\Validation\Rule;
+use AshF\Validation\Rules\Interfaces\BeforeValidate;
 
 class UploadedFile extends Rule implements BeforeValidate
 {

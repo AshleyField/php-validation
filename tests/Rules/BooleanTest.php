@@ -1,9 +1,9 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
 use PHPUnit\Framework\TestCase;
-use mightygraphics\Validation\Rules\Boolean;
+use AshF\Validation\Rules\Boolean;
 
 class BooleanTest extends TestCase
 {

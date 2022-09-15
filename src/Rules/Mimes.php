@@ -1,10 +1,10 @@
 <?php
 
-namespace mightygraphics\Validation\Rules;
+namespace AshF\Validation\Rules;
 
-use mightygraphics\Validation\Helper;
-use mightygraphics\Validation\MimeTypeGuesser;
-use mightygraphics\Validation\Rule;
+use AshF\Validation\Helper;
+use AshF\Validation\MimeTypeGuesser;
+use AshF\Validation\Rule;
 
 class Mimes extends Rule
 {

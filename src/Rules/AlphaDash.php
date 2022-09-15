@@ -1,10 +1,10 @@
 <?php
 
-namespace mightygraphics\Validation\Rules;
+namespace AshF\Validation\Rules;
 
-use mightygraphics\Validation\Rule;
+use AshF\Validation\Rule;
 
-class AlphaDmightygraphics extends Rule
+class AlphaDAshF extends Rule
 {
 
     /** @var string */

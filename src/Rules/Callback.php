@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Rules;
+namespace AshF\Validation\Rules;
 
-use mightygraphics\Validation\Rule;
+use AshF\Validation\Rule;
 use InvalidArgumentException;
 use Closure;
 
