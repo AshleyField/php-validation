@@ -7,7 +7,7 @@ use Rakit\Validation\Rule;
 class Boolean extends Rule
 {
     /** @var string */
-    protected $message = "The :attribute must be a boolean";
+    protected $message = ":attribute must be a boolean";
 
     /**
      * Check the value is valid

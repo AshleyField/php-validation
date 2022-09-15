@@ -10,7 +10,7 @@ class RequiredWithoutAll extends Required
     protected $implicit = true;
 
     /** @var string */
-    protected $message = "The :attribute is required";
+    protected $message = ":attribute is required";
 
     /**
      * Given $params and assign $this->params

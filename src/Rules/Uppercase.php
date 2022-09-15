@@ -8,7 +8,7 @@ class Uppercase extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute must be uppercase";
+    protected $message = ":attribute must be uppercase";
 
     /**
      * Check the $value is valid

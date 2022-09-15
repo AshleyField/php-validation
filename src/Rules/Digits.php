@@ -8,7 +8,7 @@ class Digits extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute must be numeric and must have an exact length of :length";
+    protected $message = ":attribute must be numeric and must have an exact length of :length";
 
     /** @var array */
     protected $fillableParams = ['length'];

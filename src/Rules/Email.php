@@ -8,7 +8,7 @@ class Email extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not valid email";
+    protected $message = ":attribute is not valid email";
 
     /**
      * Check $value is valid

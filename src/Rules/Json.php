@@ -8,7 +8,7 @@ class Json extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute must be a valid JSON string";
+    protected $message = ":attribute must be a valid JSON string";
 
     /**
      * Check the $value is valid

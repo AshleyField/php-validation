@@ -10,7 +10,7 @@ class After extends Rule
     use Traits\DateUtilsTrait;
 
     /** @var string */
-    protected $message = "The :attribute must be a date after :time.";
+    protected $message = ":attribute must be a date after :time.";
 
     /** @var array */
     protected $fillableParams = ['time'];
