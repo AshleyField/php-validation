@@ -1,18 +1,18 @@
 <?php
 
-namespace AshF\Validation;
+namespace Ash\Validation;
 
-use AshF\Validation\MissingRequiredParameterException;
+use Ash\Validation\MissingRequiredParameterException;
 
 abstract class Rule
 {
     /** @var string */
     protected $key;
 
-    /** @var \AshF\Validation\Attribute|null */
+    /** @var \Ash\Validation\Attribute|null */
     protected $attribute;
 
-    /** @var \AshF\Validation\Validation|null */
+    /** @var \Ash\Validation\Validation|null */
     protected $validation;
 
     /** @var bool */
@@ -35,7 +35,7 @@ abstract class Rule
     /**
      * Set Validation class instance
      *
-     * @param \AshF\Validation\Validation $validation
+     * @param \Ash\Validation\Validation $validation
      * @return void
      */
     public function setValidation(Validation $validation)
@@ -67,7 +67,7 @@ abstract class Rule
     /**
      * Set attribute
      *
-     * @param \AshF\Validation\Attribute $attribute
+     * @param \Ash\Validation\Attribute $attribute
      * @return void
      */
     public function setAttribute(Attribute $attribute)
@@ -78,7 +78,7 @@ abstract class Rule
     /**
      * Get attribute
      *
-     * @return \AshF\Validation\Attribute|null
+     * @return \Ash\Validation\Attribute|null
      */
     public function getAttribute()
     {
@@ -99,7 +99,7 @@ abstract class Rule
      * Set params
      *
      * @param array $params
-     * @return \AshF\Validation\Rule
+     * @return \Ash\Validation\Rule
      */
     public function setParameters(array $params): Rule
     {
@@ -112,7 +112,7 @@ abstract class Rule
      *
      * @param string $key
      * @param mixed $value
-     * @return \AshF\Validation\Rule
+     * @return \Ash\Validation\Rule
      */
     public function setParameter(string $key, $value): Rule
     {
@@ -124,7 +124,7 @@ abstract class Rule
      * Fill $params to $this->params
      *
      * @param array $params
-     * @return \AshF\Validation\Rule
+     * @return \Ash\Validation\Rule
      */
     public function fillParameters(array $params): Rule
     {
@@ -184,7 +184,7 @@ abstract class Rule
      * Just alias of setMessage
      *
      * @param string $message
-     * @return \AshF\Validation\Rule
+     * @return \Ash\Validation\Rule
      */
     public function message(string $message): Rule
     {
@@ -195,7 +195,7 @@ abstract class Rule
      * Set message
      *
      * @param string $message
-     * @return \AshF\Validation\Rule
+     * @return \Ash\Validation\Rule
      */
     public function setMessage(string $message): Rule
     {
@@ -218,7 +218,7 @@ abstract class Rule
      *
      * @param array $params
      * @return void
-     * @throws \AshF\Validation\MissingRequiredParameterException
+     * @throws \Ash\Validation\MissingRequiredParameterException
      */
     protected function requireParameters(array $params)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AshF\Validation\Rules\Traits;
+namespace Ash\Validation\Rules\Traits;
 
 use InvalidArgumentException;
 

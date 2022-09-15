@@ -1,6 +1,6 @@
 <?php
 
-namespace AshF\Validation\Traits;
+namespace Ash\Validation\Traits;
 
 trait MessagesTrait
 {

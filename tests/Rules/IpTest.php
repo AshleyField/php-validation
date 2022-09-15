@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace Ash\Validation\Tests;
 
-use AshF\Validation\Rules\Ip;
+use Ash\Validation\Rules\Ip;
 use PHPUnit\Framework\TestCase;
 
 class IpTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace Ash\Validation\Tests;
 
-use AshF\Validation\Rules\Before;
+use Ash\Validation\Rules\Before;
 use PHPUnit\Framework\TestCase;
 use DateTime;
 
@@ -10,7 +10,7 @@ class BeforeTest extends TestCase
 {
 
     /**
-     * @var \AshF\Validation\Rules\Before
+     * @var \Ash\Validation\Rules\Before
      */
     protected $validator;
 

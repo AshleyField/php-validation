@@ -1,5 +1,5 @@
 {
-  "name": "AshF/validation",
+  "name": "ash/validation",
   "description": "PHP Laravel like standalone validation library forked from rakit/validation which is not maintained",
   "license": "MIT",
   "authors": [
@@ -9,17 +9,17 @@
     },
     {
       "email": "hello@mightygraphics.co.nz",
-      "name": "AshFley Field"
+      "name": "Ashley Field"
     }
   ],
   "autoload": {
     "psr-4": {
-      "AshF\\Validation\\": "src"
+      "Ash\\Validation\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "AshF\\Validation\\Tests\\": [
+      "Ash\\Validation\\Tests\\": [
         "tests",
         "tests/Fixtures"
       ]

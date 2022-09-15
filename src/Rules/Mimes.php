@@ -1,10 +1,10 @@
 <?php
 
-namespace AshF\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use AshF\Validation\Helper;
-use AshF\Validation\MimeTypeGuesser;
-use AshF\Validation\Rule;
+use Ash\Validation\Helper;
+use Ash\Validation\MimeTypeGuesser;
+use Ash\Validation\Rule;
 
 class Mimes extends Rule
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace AshF\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use AshF\Validation\Helper;
-use AshF\Validation\Rule;
+use Ash\Validation\Helper;
+use Ash\Validation\Rule;
 
 class NotIn extends Rule
 {

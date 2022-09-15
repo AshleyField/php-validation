@@ -1,12 +1,12 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace Ash\Validation\Tests;
 
 use DateTime;
 use PHPUnit\Framework\TestCase;
-use AshF\Validation\Rule;
-use AshF\Validation\Rules\UploadedFile;
-use AshF\Validation\Validator;
+use Ash\Validation\Rule;
+use Ash\Validation\Rules\UploadedFile;
+use Ash\Validation\Validator;
 
 class ValidatorTest extends TestCase
 {
@@ -546,7 +546,7 @@ class ValidatorTest extends TestCase
     }
 
     /**
-     * @expectedException \AshF\Validation\RuleNotFoundException
+     * @expectedException \Ash\Validation\RuleNotFoundException
      */
     public function testNonExistentValidationRule()
     {
@@ -619,7 +619,7 @@ class ValidatorTest extends TestCase
     }
 
     /**
-     * @expectedException \AshF\Validation\RuleQuAshFException
+     * @expectedException \Ash\Validation\RuleQuashException
      */
     public function testInternalValidationRuleCannotBeOverridden()
     {

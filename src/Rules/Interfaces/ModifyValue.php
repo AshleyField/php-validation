@@ -1,6 +1,6 @@
 <?php
 
-namespace AshF\Validation\Rules\Interfaces;
+namespace Ash\Validation\Rules\Interfaces;
 
 interface ModifyValue
 {
