@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Between;
+use AshF\Validation\Rules\Between;
 use PHPUnit\Framework\TestCase;
 
 class BetweenTest extends TestCase

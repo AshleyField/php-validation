@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Integer;
+use AshF\Validation\Rules\Integer;
 use PHPUnit\Framework\TestCase;
 
 class IntegerTest extends TestCase

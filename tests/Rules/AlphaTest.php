@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Alpha;
+use AshF\Validation\Rules\Alpha;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

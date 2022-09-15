@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Date;
+use AshF\Validation\Rules\Date;
 use PHPUnit\Framework\TestCase;
 
 class DateTest extends TestCase

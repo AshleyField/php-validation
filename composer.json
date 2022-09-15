@@ -1,5 +1,5 @@
 {
-  "name": "mightygraphics/validation",
+  "name": "AshF/validation",
   "description": "PHP Laravel like standalone validation library forked from rakit/validation which is not maintained",
   "license": "MIT",
   "authors": [
@@ -9,17 +9,17 @@
     },
     {
       "email": "hello@mightygraphics.co.nz",
-      "name": "mightygraphicsley Field"
+      "name": "AshFley Field"
     }
   ],
   "autoload": {
     "psr-4": {
-      "mightygraphics\\Validation\\": "src"
+      "AshF\\Validation\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "mightygraphics\\Validation\\Tests\\": [
+      "AshF\\Validation\\Tests\\": [
         "tests",
         "tests/Fixtures"
       ]

@@ -1,12 +1,12 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
 use DateTime;
 use PHPUnit\Framework\TestCase;
-use mightygraphics\Validation\Rule;
-use mightygraphics\Validation\Rules\UploadedFile;
-use mightygraphics\Validation\Validator;
+use AshF\Validation\Rule;
+use AshF\Validation\Rules\UploadedFile;
+use AshF\Validation\Validator;
 
 class ValidatorTest extends TestCase
 {
@@ -546,7 +546,7 @@ class ValidatorTest extends TestCase
     }
 
     /**
-     * @expectedException \mightygraphics\Validation\RuleNotFoundException
+     * @expectedException \AshF\Validation\RuleNotFoundException
      */
     public function testNonExistentValidationRule()
     {
@@ -619,7 +619,7 @@ class ValidatorTest extends TestCase
     }
 
     /**
-     * @expectedException \mightygraphics\Validation\RuleQumightygraphicsException
+     * @expectedException \AshF\Validation\RuleQuAshFException
      */
     public function testInternalValidationRuleCannotBeOverridden()
     {

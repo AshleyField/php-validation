@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Mimes;
+use AshF\Validation\Rules\Mimes;
 use PHPUnit\Framework\TestCase;
 
 class MimesTest extends TestCase

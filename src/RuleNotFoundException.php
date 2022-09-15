@@ -1,6 +1,6 @@
 <?php
 
-namespace mightygraphics\Validation;
+namespace AshF\Validation;
 
 use Exception;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Accepted;
+use AshF\Validation\Rules\Accepted;
 use PHPUnit\Framework\TestCase;
 
 class AcceptedTest extends TestCase

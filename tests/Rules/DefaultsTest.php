@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Defaults;
+use AshF\Validation\Rules\Defaults;
 use PHPUnit\Framework\TestCase;
 
 class DefaultsTest extends TestCase
