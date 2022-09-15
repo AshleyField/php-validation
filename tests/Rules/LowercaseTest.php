@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Lowercase;
+use AshF\Validation\Rules\Lowercase;
 use PHPUnit\Framework\TestCase;
 
 class LowercaseTest extends TestCase

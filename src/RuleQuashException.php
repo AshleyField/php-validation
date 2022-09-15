@@ -1,7 +1,7 @@
 <?php
 
-namespace Ash\Validation;
+namespace AshF\Validation;
 
-class RuleQuashException extends \Exception
+class RuleQuAshFException extends \Exception
 {
 }

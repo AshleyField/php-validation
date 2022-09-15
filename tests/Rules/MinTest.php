@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Min;
+use AshF\Validation\Rules\Min;
 use PHPUnit\Framework\TestCase;
 
 class MinTest extends TestCase

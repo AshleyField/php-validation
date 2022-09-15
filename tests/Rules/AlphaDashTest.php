@@ -1,16 +1,16 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\AlphaDash;
+use AshF\Validation\Rules\AlphaDAshF;
 use PHPUnit\Framework\TestCase;
 
-class AlphaDashTest extends TestCase
+class AlphaDAshFTest extends TestCase
 {
 
     public function setUp()
     {
-        $this->rule = new AlphaDash;
+        $this->rule = new AlphaDAshF;
     }
 
     public function testValids()

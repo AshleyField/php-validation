@@ -1,9 +1,9 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Validation;
-use Ash\Validation\Validator;
+use AshF\Validation\Validation;
+use AshF\Validation\Validator;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

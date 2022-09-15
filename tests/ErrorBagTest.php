@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\ErrorBag;
+use AshF\Validation\ErrorBag;
 use PHPUnit\Framework\TestCase;
 
 class ErrorBagTest extends TestCase

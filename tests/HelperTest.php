@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Helper;
+use AshF\Validation\Helper;
 use PHPUnit\Framework\TestCase;
 
 class HelperTest extends TestCase

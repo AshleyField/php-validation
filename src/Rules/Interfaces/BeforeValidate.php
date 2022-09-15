@@ -1,6 +1,6 @@
 <?php
 
-namespace Ash\Validation\Rules\Interfaces;
+namespace AshF\Validation\Rules\Interfaces;
 
 interface BeforeValidate
 {

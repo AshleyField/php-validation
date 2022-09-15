@@ -1,9 +1,9 @@
 <?php
 
-namespace Ash\Validation\Rules\Traits;
+namespace AshF\Validation\Rules\Traits;
 
 use InvalidArgumentException;
-use Ash\Validation\Helper;
+use AshF\Validation\Helper;
 
 trait FileTrait
 {

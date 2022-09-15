@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Integer;
+use AshF\Validation\Rules\Integer;
 use PHPUnit\Framework\TestCase;
 
 class IntegerTest extends TestCase

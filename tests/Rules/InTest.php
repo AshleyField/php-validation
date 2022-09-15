@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\In;
+use AshF\Validation\Rules\In;
 use PHPUnit\Framework\TestCase;
 
 class InTest extends TestCase

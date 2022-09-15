@@ -1,9 +1,9 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Ash\Validation\Rules\Boolean;
+use AshF\Validation\Rules\Boolean;
 
 class BooleanTest extends TestCase
 {

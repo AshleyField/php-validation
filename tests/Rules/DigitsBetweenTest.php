@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\DigitsBetween;
+use AshF\Validation\Rules\DigitsBetween;
 use PHPUnit\Framework\TestCase;
 
 class DigitsBetweenTest extends TestCase

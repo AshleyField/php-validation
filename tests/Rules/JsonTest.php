@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Json;
+use AshF\Validation\Rules\Json;
 use PHPUnit\Framework\TestCase;
 
 class JsonTest extends TestCase

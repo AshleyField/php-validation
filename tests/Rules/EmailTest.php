@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Email;
+use AshF\Validation\Rules\Email;
 use PHPUnit\Framework\TestCase;
 
 class EmailTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Digits;
+use AshF\Validation\Rules\Digits;
 use PHPUnit\Framework\TestCase;
 
 class DigitsTest extends TestCase

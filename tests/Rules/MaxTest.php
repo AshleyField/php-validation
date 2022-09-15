@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Max;
+use AshF\Validation\Rules\Max;
 use PHPUnit\Framework\TestCase;
 
 class MaxTest extends TestCase

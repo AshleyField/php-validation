@@ -1,10 +1,10 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace AshF\Validation\Rules;
 
-use Ash\Validation\Rule;
+use AshF\Validation\Rule;
 
-class AlphaDash extends Rule
+class AlphaDAshF extends Rule
 {
 
     /** @var string */

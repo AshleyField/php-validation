@@ -1,6 +1,6 @@
 <?php
 
-namespace Ash\Validation;
+namespace AshF\Validation;
 
 class Attribute
 {
@@ -14,13 +14,13 @@ class Attribute
     /** @var string|null */
     protected $alias;
 
-    /** @var \Ash\Validation\Validation */
+    /** @var \AshF\Validation\Validation */
     protected $validation;
 
     /** @var bool */
     protected $required = false;
 
-    /** @var \Ash\Validation\Validation|null */
+    /** @var \AshF\Validation\Validation|null */
     protected $primaryAttribute = null;
 
     /** @var array */
@@ -32,7 +32,7 @@ class Attribute
     /**
      * Constructor
      *
-     * @param \Ash\Validation\Validation  $validation
+     * @param \AshF\Validation\Validation  $validation
      * @param string      $key
      * @param string|null $alias
      * @param array       $rules
@@ -55,7 +55,7 @@ class Attribute
     /**
      * Set the primary attribute
      *
-     * @param \Ash\Validation\Attribute $primaryAttribute
+     * @param \AshF\Validation\Attribute $primaryAttribute
      * @return void
      */
     public function setPrimaryAttribute(Attribute $primaryAttribute)
@@ -77,7 +77,7 @@ class Attribute
     /**
      * Get primary attributes
      *
-     * @return \Ash\Validation\Attribute|null
+     * @return \AshF\Validation\Attribute|null
      */
     public function getPrimaryAttribute()
     {
@@ -101,7 +101,7 @@ class Attribute
     /**
      * Add other attributes
      *
-     * @param \Ash\Validation\Attribute $otherAttribute
+     * @param \AshF\Validation\Attribute $otherAttribute
      * @return void
      */
     public function addOtherAttribute(Attribute $otherAttribute)
@@ -122,7 +122,7 @@ class Attribute
     /**
      * Add rule
      *
-     * @param \Ash\Validation\Rule $rule
+     * @param \AshF\Validation\Rule $rule
      * @return void
      */
     public function addRule(Rule $rule)

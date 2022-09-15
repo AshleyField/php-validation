@@ -1,6 +1,6 @@
 <?php
 
-namespace Ash\Validation;
+namespace AshF\Validation;
 
 class ErrorBag
 {

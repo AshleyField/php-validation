@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rule;
+use AshF\Validation\Rule;
 
 class Required extends Rule
 {

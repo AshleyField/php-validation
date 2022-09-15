@@ -1,9 +1,9 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace AshF\Validation\Rules;
 
-use Ash\Validation\Rule;
-use Ash\Validation\Rules\Interfaces\ModifyValue;
+use AshF\Validation\Rule;
+use AshF\Validation\Rules\Interfaces\ModifyValue;
 
 class Defaults extends Rule implements ModifyValue
 {

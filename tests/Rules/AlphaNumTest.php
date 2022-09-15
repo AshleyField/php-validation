@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\AlphaNum;
+use AshF\Validation\Rules\AlphaNum;
 use PHPUnit\Framework\TestCase;
 
 class AlphaNumTest extends TestCase

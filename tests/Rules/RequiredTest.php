@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Required;
+use AshF\Validation\Rules\Required;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

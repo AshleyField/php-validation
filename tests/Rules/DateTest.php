@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Date;
+use AshF\Validation\Rules\Date;
 use PHPUnit\Framework\TestCase;
 
 class DateTest extends TestCase

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Ash validation coding standard">
-    <description>Ash validation coding standard</description>
+<ruleset name="AshF validation coding standard">
+    <description>AshF validation coding standard</description>
 
     <!-- display progress -->
     <arg value="p"/>

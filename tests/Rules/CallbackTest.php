@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Callback;
+use AshF\Validation\Rules\Callback;
 use PHPUnit\Framework\TestCase;
 
 class CallbackTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\TypeArray;
+use AshF\Validation\Rules\TypeArray;
 use PHPUnit\Framework\TestCase;
 
 class TypeArrayTest extends TestCase

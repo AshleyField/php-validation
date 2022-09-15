@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Url;
+use AshF\Validation\Rules\Url;
 use PHPUnit\Framework\TestCase;
 
 class UrlTest extends TestCase

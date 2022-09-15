@@ -1,11 +1,11 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace AshF\Validation\Rules;
 
-use Ash\Validation\Helper;
-use Ash\Validation\MimeTypeGuesser;
-use Ash\Validation\Rule;
-use Ash\Validation\Rules\Interfaces\BeforeValidate;
+use AshF\Validation\Helper;
+use AshF\Validation\MimeTypeGuesser;
+use AshF\Validation\Rule;
+use AshF\Validation\Rules\Interfaces\BeforeValidate;
 
 class UploadedFile extends Rule implements BeforeValidate
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Regex;
+use AshF\Validation\Rules\Regex;
 use PHPUnit\Framework\TestCase;
 
 class RegexTest extends TestCase

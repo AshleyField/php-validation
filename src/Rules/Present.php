@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace AshF\Validation\Rules;
 
-use Ash\Validation\Rule;
+use AshF\Validation\Rule;
 
 class Present extends Rule
 {

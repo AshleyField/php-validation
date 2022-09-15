@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\Numeric;
+use AshF\Validation\Rules\Numeric;
 use PHPUnit\Framework\TestCase;
 
 class NumericTest extends TestCase

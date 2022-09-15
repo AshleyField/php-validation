@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use Ash\Validation\Rules\UploadedFile;
+use AshF\Validation\Rules\UploadedFile;
 use PHPUnit\Framework\TestCase;
 
 class UploadedFileTest extends TestCase
