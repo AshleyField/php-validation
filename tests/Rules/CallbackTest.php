@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\Callback;
+use mightygraphics\Validation\Rules\Callback;
 use PHPUnit\Framework\TestCase;
 
 class CallbackTest extends TestCase

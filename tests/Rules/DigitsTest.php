@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\Digits;
+use mightygraphics\Validation\Rules\Digits;
 use PHPUnit\Framework\TestCase;
 
 class DigitsTest extends TestCase

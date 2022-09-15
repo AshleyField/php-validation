@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\Before;
+use mightygraphics\Validation\Rules\Before;
 use PHPUnit\Framework\TestCase;
 use DateTime;
 
@@ -10,7 +10,7 @@ class BeforeTest extends TestCase
 {
 
     /**
-     * @var \AshF\Validation\Rules\Before
+     * @var \mightygraphics\Validation\Rules\Before
      */
     protected $validator;
 

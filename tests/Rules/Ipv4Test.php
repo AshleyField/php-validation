@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\Ipv4;
+use mightygraphics\Validation\Rules\Ipv4;
 use PHPUnit\Framework\TestCase;
 
 class Ipv4Test extends TestCase

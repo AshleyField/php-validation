@@ -1,6 +1,6 @@
 <?php
 
-namespace AshF\Validation;
+namespace mightygraphics\Validation;
 
 class Validator
 {
@@ -34,7 +34,7 @@ class Validator
      * Register or override existing validator
      *
      * @param mixed $key
-     * @param \AshF\Validation\Rule $rule
+     * @param \mightygraphics\Validation\Rule $rule
      * @return void
      */
     public function setValidator(string $key, Rule $rule)
@@ -128,7 +128,7 @@ class Validator
             'alpha'                     => new Rules\Alpha,
             'numeric'                   => new Rules\Numeric,
             'alpha_num'                 => new Rules\AlphaNum,
-            'alpha_dAshF'                => new Rules\AlphaDAshF,
+            'alpha_dmightygraphics'                => new Rules\AlphaDmightygraphics,
             'alpha_spaces'              => new Rules\AlphaSpaces,
             'in'                        => new Rules\In,
             'not_in'                    => new Rules\NotIn,
@@ -173,13 +173,13 @@ class Validator
      * Given $ruleName and $rule to add new validator
      *
      * @param string $ruleName
-     * @param \AshF\Validation\Rule $rule
+     * @param \mightygraphics\Validation\Rule $rule
      * @return void
      */
     public function addValidator(string $ruleName, Rule $rule)
     {
         if (!$this->allowRuleOverride && array_key_exists($ruleName, $this->validators)) {
-            throw new RuleQuAshFException(
+            throw new RuleQumightygraphicsException(
                 "You cannot override a built in rule. You have to rename your rule"
             );
         }

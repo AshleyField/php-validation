@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\TypeArray;
+use mightygraphics\Validation\Rules\TypeArray;
 use PHPUnit\Framework\TestCase;
 
 class TypeArrayTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace AshF\Validation\Tests;
+namespace mightygraphics\Validation\Tests;
 
-use AshF\Validation\Rules\Numeric;
+use mightygraphics\Validation\Rules\Numeric;
 use PHPUnit\Framework\TestCase;
 
 class NumericTest extends TestCase
