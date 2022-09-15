@@ -1,13 +1,13 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Ash\Validation\Tests;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class Even extends Rule
 {
 
-    protected $message = "The :attribute must be even";
+    protected $message = ":attribute must be even";
 
     public function check($value): bool
     {

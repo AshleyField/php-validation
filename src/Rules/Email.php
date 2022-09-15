@@ -1,14 +1,14 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class Email extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not valid email";
+    protected $message = ":attribute is not valid email";
 
     /**
      * Check $value is valid

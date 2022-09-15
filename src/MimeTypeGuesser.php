@@ -1,6 +1,6 @@
 <?php
 
-namespace Rakit\Validation;
+namespace Ash\Validation;
 
 class MimeTypeGuesser
 {

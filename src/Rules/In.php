@@ -1,15 +1,15 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Helper;
-use Rakit\Validation\Rule;
+use Ash\Validation\Helper;
+use Ash\Validation\Rule;
 
 class In extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute only allows :allowed_values";
+    protected $message = ":attribute only allows :allowed_values";
 
     /** @var bool */
     protected $strict = false;

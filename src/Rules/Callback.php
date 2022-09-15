@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 use InvalidArgumentException;
 use Closure;
 
@@ -10,7 +10,7 @@ class Callback extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not valid";
+    protected $message = ":attribute is not valid";
 
     /** @var array */
     protected $fillableParams = ['callback'];

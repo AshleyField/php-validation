@@ -1,33 +1,31 @@
-Rakit Validation - PHP Standalone Validation Library
-======================================================
+# Ash Validation - PHP Standalone Validation Library
 
-[![Build Status](https://img.shields.io/travis/rakit/validation.svg?style=flat-square)](https://travis-ci.org/rakit/validation)
-[![Coverage Status](https://coveralls.io/repos/github/rakit/validation/badge.svg?branch=setup_coveralls)](https://coveralls.io/github/rakit/validation)
+[![Build Status](https://img.shields.io/travis/Ash/validation.svg?style=flat-square)](https://travis-ci.org/Ash/validation)
+[![Coverage Status](https://coveralls.io/repos/github/Ash/validation/badge.svg?branch=setup_coveralls)](https://coveralls.io/github/Ash/validation)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://doge.mit-license.org)
-
 
 PHP Standalone library for validating data. Inspired by `Illuminate\Validation` Laravel.
 
 ## Features
 
-* API like Laravel validation.
-* Array validation.
-* `$_FILES` validation with multiple file support.
-* Custom attribute aliases.
-* Custom validation messages.
-* Custom rule.
+- API like Laravel validation.
+- Array validation.
+- `$_FILES` validation with multiple file support.
+- Custom attribute aliases.
+- Custom validation messages.
+- Custom rule.
 
 ## Requirements
 
-* PHP 7.0 or higher
-* Composer for installation
+- PHP 7.0 or higher
+- Composer for installation
 
 ## Quick Start
 
 #### Installation
 
 ```
-composer require "rakit/validation"
+composer require "Ash/validation"
 ```
 
 #### Usage
@@ -43,7 +41,7 @@ Using `make`:
 
 require('vendor/autoload.php');
 
-use Rakit\Validation\Validator;
+use Ash\Validation\Validator;
 
 $validator = new Validator;
 
@@ -83,7 +81,7 @@ or just `validate` it:
 
 require('vendor/autoload.php');
 
-use Rakit\Validation\Validator;
+use Ash\Validation\Validator;
 
 $validator = new Validator;
 
@@ -156,8 +154,8 @@ Now if `province_id` value is empty, error message would be 'Province is require
 
 Before register/set custom messages, here are some variables you can use in your custom messages:
 
-* `:attribute`: will replaced into attribute alias.
-* `:value`: will replaced into stringify value of attribute. For array and object will replaced to json.
+- `:attribute`: will replaced into attribute alias.
+- `:value`: will replaced into stringify value of attribute. For array and object will replaced to json.
 
 And also there are several message variables depends on their rules.
 
@@ -302,7 +300,7 @@ $message = $validation->errors()->first('nomor'); // "Nomor hanya memperbolehkan
 
 ## Working with Error Message
 
-Errors messages are collected in `Rakit\Validation\ErrorBag` object that you can get it using `errors()` method.
+Errors messages are collected in `Ash\Validation\ErrorBag` object that you can get it using `errors()` method.
 
 ```php
 $validation = $validator->validate($inputs, $rules);
@@ -416,7 +414,6 @@ Get count messages.
 
 Check if given key has an error. It returns `bool` if a key has an error, and otherwise.
 
-
 ## Getting Validated, Valid, and Invalid Data
 
 For example you have validation like this:
@@ -527,17 +524,17 @@ The field under validation must be present and not empty only when all of the ot
 This rule will validate data from `$_FILES`.
 Field under this rule must be follows rules below to be valid:
 
-* `$_FILES['key']['error']` must be `UPLOAD_ERR_OK` or `UPLOAD_ERR_NO_FILE`. For `UPLOAD_ERR_NO_FILE` you can validate it with `required` rule.
-* If min size is given, uploaded file size **MUST NOT** be lower than min size.
-* If max size is given, uploaded file size **MUST NOT** be higher than max size.
-* If file types is given, mime type must be one of those given types.
+- `$_FILES['key']['error']` must be `UPLOAD_ERR_OK` or `UPLOAD_ERR_NO_FILE`. For `UPLOAD_ERR_NO_FILE` you can validate it with `required` rule.
+- If min size is given, uploaded file size **MUST NOT** be lower than min size.
+- If max size is given, uploaded file size **MUST NOT** be higher than max size.
+- If file types is given, mime type must be one of those given types.
 
 Here are some example definitions and explanations:
 
-* `uploaded_file`: uploaded file is optional. When it is not empty, it must be `ERR_UPLOAD_OK`.
-* `required|uploaded_file`: uploaded file is required, and it must be `ERR_UPLOAD_OK`.
-* `uploaded_file:0,1M`: uploaded file size must be between 0 - 1 MB, but uploaded file is optional.
-* `required|uploaded_file:0,1M,png,jpeg`: uploaded file size must be between 0 - 1MB and mime types must be `image/jpeg` or `image/png`.
+- `uploaded_file`: uploaded file is optional. When it is not empty, it must be `ERR_UPLOAD_OK`.
+- `required|uploaded_file`: uploaded file is required, and it must be `ERR_UPLOAD_OK`.
+- `uploaded_file:0,1M`: uploaded file size must be between 0 - 1 MB, but uploaded file is optional.
+- `required|uploaded_file:0,1M,png,jpeg`: uploaded file size must be between 0 - 1MB and mime types must be `image/jpeg` or `image/png`.
 
 Optionally, if you want to have separate error message between size and type validation.
 You can use `mimes` rule to validate file types, and `min`, `max`, or `between` to validate it's size.
@@ -547,12 +544,12 @@ For multiple file upload, PHP will give you undesirable array `$_FILES` structur
 For example if you have input files like this:
 
 ```html
-<input type="file" name="photos[]"/>
-<input type="file" name="photos[]"/>
-<input type="file" name="photos[]"/>
+<input type="file" name="photos[]" />
+<input type="file" name="photos[]" />
+<input type="file" name="photos[]" />
 ```
 
-You can  simply validate it like this:
+You can simply validate it like this:
 
 ```php
 $validation = $validator->validate($_FILES, [
@@ -569,8 +566,7 @@ $validation = $validator->validate($_FILES, [
 Or if you have input files like this:
 
 ```html
-<input type="file" name="images[profile]"/>
-<input type="file" name="images[cover]"/>
+<input type="file" name="images[profile]" /> <input type="file" name="images[cover]" />
 ```
 
 You can validate it like this:
@@ -798,7 +794,7 @@ $validation = $validator->validate($inputs, [
 ```
 
 > For common URL scheme and mailto, we combine `FILTER_VALIDATE_URL` to validate URL format and `preg_match` to validate it's scheme.
-  Except for JDBC URL, currently it just check a valid JDBC scheme.
+> Except for JDBC URL, currently it just check a valid JDBC scheme.
 
 </details>
 
@@ -884,6 +880,7 @@ Opposite of `same`. The field value under this rule must be different with `anot
 <details><summary><strong>after</strong>:tomorrow</summary>
 
 Anything that can be parsed by `strtotime` can be passed as a parameter to this rule. Valid examples include :
+
 - after:next week
 - after:2016-12-31
 - after:2016
@@ -937,8 +934,8 @@ $validation = $validator->validate($_POST, [
 ]);
 ```
 
-> Note: `Rakit\Validation\Rules\Callback` instance is binded into your Closure.
-  So you can access rule properties and methods using `$this`.
+> Note: `Ash\Validation\Rules\Callback` instance is binded into your Closure.
+> So you can access rule properties and methods using `$this`.
 
 </details>
 
@@ -950,7 +947,7 @@ Field under this rule may be empty.
 
 ## Register/Override Rule
 
-Another way to use custom validation rule is to create a class extending `Rakit\Validation\Rule`.
+Another way to use custom validation rule is to create a class extending `Ash\Validation\Rule`.
 Then register it using `setValidator` or `addValidator`.
 
 For example, you want to create `unique` validator that check field availability from database.
@@ -960,7 +957,7 @@ First, lets create `UniqueRule` class:
 ```php
 <?php
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class UniqueRule extends Rule
 {
@@ -1005,7 +1002,7 @@ class UniqueRule extends Rule
 Then you need to register `UniqueRule` instance into validator like this:
 
 ```php
-use Rakit\Validation\Validator;
+use Ash\Validation\Validator;
 
 $validator = new Validator;
 
@@ -1020,7 +1017,7 @@ $validation = $validator->validate($_POST, [
 ]);
 ```
 
-In `UniqueRule` above, property `$message` is used for default invalid message. And property `$fillable_params` is used for `fillParameters` method (defined in `Rakit\Validation\Rule` class). By default `fillParameters` will fill parameters listed in `$fillable_params`. For example `unique:users,email,exception@mail.com` in example above, will set:
+In `UniqueRule` above, property `$message` is used for default invalid message. And property `$fillable_params` is used for `fillParameters` method (defined in `Ash\Validation\Rule` class). By default `fillParameters` will fill parameters listed in `$fillable_params`. For example `unique:users,email,exception@mail.com` in example above, will set:
 
 ```php
 $params['table'] = 'users';
@@ -1029,7 +1026,7 @@ $params['except'] = 'exception@mail.com';
 ```
 
 > If you want your custom rule accept parameter list like `in`,`not_in`, or `uploaded_file` rules,
-  you just need to override `fillParameters(array $params)` method in your custom rule class.
+> you just need to override `fillParameters(array $params)` method in your custom rule class.
 
 Note that `unique` rule that we created above also can be used like this:
 
@@ -1047,7 +1044,7 @@ So you can improve `UniqueRule` class above by adding some methods that returnin
 ```php
 <?php
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class UniqueRule extends Rule
 {
@@ -1096,7 +1093,7 @@ To make your custom rule implicit, you can make `$implicit` property value to be
 ```php
 <?php
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class YourCustomRule extends Rule
 {
@@ -1110,15 +1107,15 @@ class YourCustomRule extends Rule
 
 In some case, you may want your custom rule to be able to modify it's attribute value like our `default/defaults` rule. So in current and next rules checks, your modified value will be used.
 
-To do this, you should implements `Rakit\Validation\Rules\Interfaces\ModifyValue` and create method `modifyValue($value)` to your custom rule class.
+To do this, you should implements `Ash\Validation\Rules\Interfaces\ModifyValue` and create method `modifyValue($value)` to your custom rule class.
 
 For example:
 
 ```php
 <?php
 
-use Rakit\Validation\Rule;
-use Rakit\Validation\Rules\Interfaces\ModifyValue;
+use Ash\Validation\Rule;
+use Ash\Validation\Rules\Interfaces\ModifyValue;
 
 class YourCustomRule extends Rule implements ModifyValue
 {
@@ -1139,15 +1136,15 @@ class YourCustomRule extends Rule implements ModifyValue
 
 You may want to do some preparation before validation running. For example our `uploaded_file` rule will resolves attribute value that come from `$_FILES` (undesirable) array structure to be well-organized array structure, so we can validate multiple file upload just like validating other data.
 
-To do this, you should implements `Rakit\Validation\Rules\Interfaces\BeforeValidate` and create method `beforeValidate()` to your custom rule class.
+To do this, you should implements `Ash\Validation\Rules\Interfaces\BeforeValidate` and create method `beforeValidate()` to your custom rule class.
 
 For example:
 
 ```php
 <?php
 
-use Rakit\Validation\Rule;
-use Rakit\Validation\Rules\Interfaces\BeforeValidate;
+use Ash\Validation\Rule;
+use Ash\Validation\Rules\Interfaces\BeforeValidate;
 
 class YourCustomRule extends Rule implements BeforeValidate
 {
@@ -1155,8 +1152,8 @@ class YourCustomRule extends Rule implements BeforeValidate
 
     public function beforeValidate()
     {
-        $attribute = $this->getAttribute(); // Rakit\Validation\Attribute instance
-        $validation = $this->validation; // Rakit\Validation\Validation instance
+        $attribute = $this->getAttribute(); // Ash\Validation\Attribute instance
+        $validation = $this->validation; // Ash\Validation\Validation instance
 
         // Do something with $attribute and $validation
         // For example change attribute value

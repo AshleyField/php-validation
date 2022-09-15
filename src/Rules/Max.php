@@ -1,15 +1,15 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class Max extends Rule
 {
     use Traits\SizeTrait;
 
     /** @var string */
-    protected $message = "The :attribute maximum is :max";
+    protected $message = ":attribute maximum is :max";
 
     /** @var array */
     protected $fillableParams = ['max'];

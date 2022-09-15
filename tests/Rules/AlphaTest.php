@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Tests;
+namespace Ash\Validation\Tests;
 
-use Rakit\Validation\Rules\Alpha;
+use Ash\Validation\Rules\Alpha;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

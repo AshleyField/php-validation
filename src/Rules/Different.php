@@ -1,14 +1,14 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class Different extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute must be different with :field";
+    protected $message = ":attribute must be different with :field";
 
     /** @var array */
     protected $fillableParams = ['field'];

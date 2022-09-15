@@ -1,6 +1,6 @@
 <?php
 
-namespace Rakit\Validation\Traits;
+namespace Ash\Validation\Traits;
 
 trait TranslationsTrait
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class Ip extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not valid IP Address";
+    protected $message = ":attribute is not valid IP Address";
 
     /**
      * Check the $value is valid

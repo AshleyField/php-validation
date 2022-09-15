@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class RequiredWithAll extends Required
 {
@@ -10,7 +10,7 @@ class RequiredWithAll extends Required
     protected $implicit = true;
 
     /** @var string */
-    protected $message = "The :attribute is required";
+    protected $message = ":attribute is required";
 
     /**
      * Given $params and assign $this->params

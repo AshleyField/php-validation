@@ -1,8 +1,8 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class Present extends Rule
 {
@@ -10,7 +10,7 @@ class Present extends Rule
     protected $implicit = true;
 
     /** @var string */
-    protected $message = "The :attribute must be present";
+    protected $message = ":attribute must be present";
 
     /**
      * Check the $value is valid

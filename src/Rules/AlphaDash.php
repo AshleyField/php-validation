@@ -1,14 +1,14 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class AlphaDash extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute only allows a-z, 0-9, _ and -";
+    protected $message = ":attribute only allows a-z, 0-9, _ and -";
 
     /**
      * Check the $value is valid

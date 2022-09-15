@@ -1,14 +1,14 @@
 <?php
 
-namespace Rakit\Validation\Rules;
+namespace Ash\Validation\Rules;
 
-use Rakit\Validation\Rule;
+use Ash\Validation\Rule;
 
 class DigitsBetween extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute must have a length between the given :min and :max";
+    protected $message = ":attribute must have a length between the given :min and :max";
 
     /** @var array */
     protected $fillableParams = ['min', 'max'];
