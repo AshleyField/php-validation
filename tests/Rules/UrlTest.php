@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Url;
+use Rakit\Validation\Rules\Url;
 use PHPUnit\Framework\TestCase;
 
 class UrlTest extends TestCase

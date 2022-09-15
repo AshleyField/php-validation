@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Between;
+use Rakit\Validation\Rules\Between;
 use PHPUnit\Framework\TestCase;
 
 class BetweenTest extends TestCase

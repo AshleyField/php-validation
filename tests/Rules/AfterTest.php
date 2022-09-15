@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\After;
+use Rakit\Validation\Rules\After;
 use PHPUnit\Framework\TestCase;
 use DateTime;
 
@@ -10,7 +10,7 @@ class AfterTest extends TestCase
 {
 
     /**
-     * @var \Ash\Validation\Rules\After
+     * @var \Rakit\Validation\Rules\After
      */
     protected $validator;
 

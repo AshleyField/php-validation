@@ -1,6 +1,6 @@
 <?php
 
-namespace Ash\Validation;
+namespace Rakit\Validation;
 
 class Helper
 {

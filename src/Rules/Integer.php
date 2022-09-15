@@ -1,14 +1,14 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Integer extends Rule
 {
 
     /** @var string */
-    protected $message = ":attribute must be integer";
+    protected $message = "The :attribute must be integer";
 
     /**
      * Check the $value is valid

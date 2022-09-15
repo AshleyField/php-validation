@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class After extends Rule
 {
@@ -10,7 +10,7 @@ class After extends Rule
     use Traits\DateUtilsTrait;
 
     /** @var string */
-    protected $message = ":attribute must be a date after :time.";
+    protected $message = "The :attribute must be a date after :time.";
 
     /** @var array */
     protected $fillableParams = ['time'];

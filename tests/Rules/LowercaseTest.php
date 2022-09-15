@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Lowercase;
+use Rakit\Validation\Rules\Lowercase;
 use PHPUnit\Framework\TestCase;
 
 class LowercaseTest extends TestCase

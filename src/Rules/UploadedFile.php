@@ -1,18 +1,18 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Helper;
-use Ash\Validation\MimeTypeGuesser;
-use Ash\Validation\Rule;
-use Ash\Validation\Rules\Interfaces\BeforeValidate;
+use Rakit\Validation\Helper;
+use Rakit\Validation\MimeTypeGuesser;
+use Rakit\Validation\Rule;
+use Rakit\Validation\Rules\Interfaces\BeforeValidate;
 
 class UploadedFile extends Rule implements BeforeValidate
 {
     use Traits\FileTrait, Traits\SizeTrait;
 
     /** @var string */
-    protected $message = ":attribute is not valid uploaded file";
+    protected $message = "The :attribute is not valid uploaded file";
 
     /** @var string|int */
     protected $maxSize = null;

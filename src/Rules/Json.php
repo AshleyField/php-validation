@@ -1,14 +1,14 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Json extends Rule
 {
 
     /** @var string */
-    protected $message = ":attribute must be a valid JSON string";
+    protected $message = "The :attribute must be a valid JSON string";
 
     /**
      * Check the $value is valid

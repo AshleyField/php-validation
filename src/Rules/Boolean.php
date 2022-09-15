@@ -1,13 +1,13 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Boolean extends Rule
 {
     /** @var string */
-    protected $message = ":attribute must be a boolean";
+    protected $message = "The :attribute must be a boolean";
 
     /**
      * Check the value is valid

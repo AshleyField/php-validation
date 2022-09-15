@@ -1,12 +1,12 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
 use DateTime;
 use PHPUnit\Framework\TestCase;
-use Ash\Validation\Rule;
-use Ash\Validation\Rules\UploadedFile;
-use Ash\Validation\Validator;
+use Rakit\Validation\Rule;
+use Rakit\Validation\Rules\UploadedFile;
+use Rakit\Validation\Validator;
 
 class ValidatorTest extends TestCase
 {
@@ -546,7 +546,7 @@ class ValidatorTest extends TestCase
     }
 
     /**
-     * @expectedException \Ash\Validation\RuleNotFoundException
+     * @expectedException \Rakit\Validation\RuleNotFoundException
      */
     public function testNonExistentValidationRule()
     {
@@ -619,7 +619,7 @@ class ValidatorTest extends TestCase
     }
 
     /**
-     * @expectedException \Ash\Validation\RuleQuashException
+     * @expectedException \Rakit\Validation\RuleQuashException
      */
     public function testInternalValidationRuleCannotBeOverridden()
     {

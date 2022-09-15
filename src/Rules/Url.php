@@ -1,14 +1,14 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Url extends Rule
 {
 
     /** @var string */
-    protected $message = ":attribute is not valid url";
+    protected $message = "The :attribute is not valid url";
 
     /**
      * Given $params and assign $this->params

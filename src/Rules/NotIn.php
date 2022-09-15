@@ -1,15 +1,15 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Helper;
-use Ash\Validation\Rule;
+use Rakit\Validation\Helper;
+use Rakit\Validation\Rule;
 
 class NotIn extends Rule
 {
 
     /** @var string */
-    protected $message = ":attribute is not allowing :disallowed_values";
+    protected $message = "The :attribute is not allowing :disallowed_values";
 
     /** @var bool */
     protected $strict = false;

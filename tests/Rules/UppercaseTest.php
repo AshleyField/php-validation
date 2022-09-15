@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Uppercase;
+use Rakit\Validation\Rules\Uppercase;
 use PHPUnit\Framework\TestCase;
 
 class UppercaseTest extends TestCase

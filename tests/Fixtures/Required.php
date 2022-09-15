@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Required extends Rule
 {

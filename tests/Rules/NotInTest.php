@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\NotIn;
+use Rakit\Validation\Rules\NotIn;
 use PHPUnit\Framework\TestCase;
 
 class NotInTest extends TestCase

@@ -1,14 +1,14 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Digits extends Rule
 {
 
     /** @var string */
-    protected $message = ":attribute must be numeric and must have an exact length of :length";
+    protected $message = "The :attribute must be numeric and must have an exact length of :length";
 
     /** @var array */
     protected $fillableParams = ['length'];

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class RequiredUnless extends Required
 {
@@ -10,7 +10,7 @@ class RequiredUnless extends Required
     protected $implicit = true;
 
     /** @var string */
-    protected $message = ":attribute is required";
+    protected $message = "The :attribute is required";
 
     /**
      * Given $params and assign the $this->params

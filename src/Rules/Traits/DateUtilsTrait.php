@@ -1,6 +1,6 @@
 <?php
 
-namespace Ash\Validation\Rules\Traits;
+namespace Rakit\Validation\Rules\Traits;
 
 use Exception;
 

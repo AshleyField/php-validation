@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\ErrorBag;
+use Rakit\Validation\ErrorBag;
 use PHPUnit\Framework\TestCase;
 
 class ErrorBagTest extends TestCase

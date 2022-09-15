@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Before;
+use Rakit\Validation\Rules\Before;
 use PHPUnit\Framework\TestCase;
 use DateTime;
 
@@ -10,7 +10,7 @@ class BeforeTest extends TestCase
 {
 
     /**
-     * @var \Ash\Validation\Rules\Before
+     * @var \Rakit\Validation\Rules\Before
      */
     protected $validator;
 

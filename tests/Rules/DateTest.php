@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Date;
+use Rakit\Validation\Rules\Date;
 use PHPUnit\Framework\TestCase;
 
 class DateTest extends TestCase

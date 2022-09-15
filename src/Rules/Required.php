@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Required extends Rule
 {
@@ -12,7 +12,7 @@ class Required extends Rule
     protected $implicit = true;
 
     /** @var string */
-    protected $message = ":attribute is required";
+    protected $message = "The :attribute is required";
 
     /**
      * Check the $value is valid

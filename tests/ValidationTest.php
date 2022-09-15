@@ -1,9 +1,9 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Validation;
-use Ash\Validation\Validator;
+use Rakit\Validation\Validation;
+use Rakit\Validation\Validator;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

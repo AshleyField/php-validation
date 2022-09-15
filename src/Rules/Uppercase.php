@@ -1,14 +1,14 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Uppercase extends Rule
 {
 
     /** @var string */
-    protected $message = ":attribute must be uppercase";
+    protected $message = "The :attribute must be uppercase";
 
     /**
      * Check the $value is valid

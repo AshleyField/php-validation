@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Max;
+use Rakit\Validation\Rules\Max;
 use PHPUnit\Framework\TestCase;
 
 class MaxTest extends TestCase

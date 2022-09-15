@@ -1,15 +1,15 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
-use Ash\Validation\Rules\Interfaces\ModifyValue;
+use Rakit\Validation\Rule;
+use Rakit\Validation\Rules\Interfaces\ModifyValue;
 
 class Defaults extends Rule implements ModifyValue
 {
 
     /** @var string */
-    protected $message = ":attribute default is :default";
+    protected $message = "The :attribute default is :default";
 
     /** @var array */
     protected $fillableParams = ['default'];

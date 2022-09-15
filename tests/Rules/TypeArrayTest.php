@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\TypeArray;
+use Rakit\Validation\Rules\TypeArray;
 use PHPUnit\Framework\TestCase;
 
 class TypeArrayTest extends TestCase

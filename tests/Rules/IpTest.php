@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Ip;
+use Rakit\Validation\Rules\Ip;
 use PHPUnit\Framework\TestCase;
 
 class IpTest extends TestCase

@@ -1,15 +1,15 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Min extends Rule
 {
     use Traits\SizeTrait;
 
     /** @var string */
-    protected $message = ":attribute minimum is :min";
+    protected $message = "The :attribute minimum is :min";
 
     /** @var array */
     protected $fillableParams = ['min'];

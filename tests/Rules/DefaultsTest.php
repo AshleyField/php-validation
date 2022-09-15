@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Defaults;
+use Rakit\Validation\Rules\Defaults;
 use PHPUnit\Framework\TestCase;
 
 class DefaultsTest extends TestCase

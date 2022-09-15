@@ -1,14 +1,14 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Date extends Rule
 {
 
     /** @var string */
-    protected $message = ":attribute is not valid date format";
+    protected $message = "The :attribute is not valid date format";
 
     /** @var array */
     protected $fillableParams = ['format'];

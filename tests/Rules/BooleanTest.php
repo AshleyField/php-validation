@@ -1,9 +1,9 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Ash\Validation\Rules\Boolean;
+use Rakit\Validation\Rules\Boolean;
 
 class BooleanTest extends TestCase
 {

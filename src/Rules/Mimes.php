@@ -1,17 +1,17 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Helper;
-use Ash\Validation\MimeTypeGuesser;
-use Ash\Validation\Rule;
+use Rakit\Validation\Helper;
+use Rakit\Validation\MimeTypeGuesser;
+use Rakit\Validation\Rule;
 
 class Mimes extends Rule
 {
     use Traits\FileTrait;
 
     /** @var string */
-    protected $message = ":attribute file type must be :allowed_types";
+    protected $message = "The :attribute file type must be :allowed_types";
 
     /** @var string|int */
     protected $maxSize = null;

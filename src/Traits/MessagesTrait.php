@@ -1,6 +1,6 @@
 <?php
 
-namespace Ash\Validation\Traits;
+namespace Rakit\Validation\Traits;
 
 trait MessagesTrait
 {

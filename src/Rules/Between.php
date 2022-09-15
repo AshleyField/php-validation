@@ -1,15 +1,15 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Between extends Rule
 {
     use Traits\SizeTrait;
 
     /** @var string */
-    protected $message = ":attribute must be between :min and :max";
+    protected $message = "The :attribute must be between :min and :max";
 
     /** @var array */
     protected $fillableParams = ['min', 'max'];

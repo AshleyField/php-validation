@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\UploadedFile;
+use Rakit\Validation\Rules\UploadedFile;
 use PHPUnit\Framework\TestCase;
 
 class UploadedFileTest extends TestCase

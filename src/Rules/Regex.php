@@ -1,14 +1,14 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Regex extends Rule
 {
 
     /** @var string */
-    protected $message = ":attribute is not valid format";
+    protected $message = "The :attribute is not valid format";
 
     /** @var array */
     protected $fillableParams = ['regex'];

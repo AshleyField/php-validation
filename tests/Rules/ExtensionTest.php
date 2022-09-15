@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Extension;
+use Rakit\Validation\Rules\Extension;
 use PHPUnit\Framework\TestCase;
 
 class ExtensionTest extends TestCase

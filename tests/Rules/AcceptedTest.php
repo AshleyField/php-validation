@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Accepted;
+use Rakit\Validation\Rules\Accepted;
 use PHPUnit\Framework\TestCase;
 
 class AcceptedTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Rules\Min;
+use Rakit\Validation\Rules\Min;
 use PHPUnit\Framework\TestCase;
 
 class MinTest extends TestCase

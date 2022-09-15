@@ -1,15 +1,15 @@
 <?php
 
-namespace Ash\Validation\Rules;
+namespace Rakit\Validation\Rules;
 
-use Ash\Validation\Rule;
+use Rakit\Validation\Rule;
 
 class Before extends Rule
 {
     use Traits\DateUtilsTrait;
 
     /** @var string */
-    protected $message = ":attribute must be a date before :time.";
+    protected $message = "The :attribute must be a date before :time.";
 
     /** @var array */
     protected $fillableParams = ['time'];

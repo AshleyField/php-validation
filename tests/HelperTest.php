@@ -1,8 +1,8 @@
 <?php
 
-namespace Ash\Validation\Tests;
+namespace Rakit\Validation\Tests;
 
-use Ash\Validation\Helper;
+use Rakit\Validation\Helper;
 use PHPUnit\Framework\TestCase;
 
 class HelperTest extends TestCase
