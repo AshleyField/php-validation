@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Extension;
+use AshF\Validation\Rules\Extension;
 use PHPUnit\Framework\TestCase;
 
 class ExtensionTest extends TestCase

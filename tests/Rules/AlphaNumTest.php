@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\AlphaNum;
+use AshF\Validation\Rules\AlphaNum;
 use PHPUnit\Framework\TestCase;
 
 class AlphaNumTest extends TestCase

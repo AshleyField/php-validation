@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Uppercase;
+use AshF\Validation\Rules\Uppercase;
 use PHPUnit\Framework\TestCase;
 
 class UppercaseTest extends TestCase

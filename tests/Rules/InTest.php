@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\In;
+use AshF\Validation\Rules\In;
 use PHPUnit\Framework\TestCase;
 
 class InTest extends TestCase

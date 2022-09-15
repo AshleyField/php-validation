@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\NotIn;
+use AshF\Validation\Rules\NotIn;
 use PHPUnit\Framework\TestCase;
 
 class NotInTest extends TestCase

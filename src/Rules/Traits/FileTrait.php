@@ -1,9 +1,9 @@
 <?php
 
-namespace mightygraphics\Validation\Rules\Traits;
+namespace AshF\Validation\Rules\Traits;
 
 use InvalidArgumentException;
-use mightygraphics\Validation\Helper;
+use AshF\Validation\Helper;
 
 trait FileTrait
 {

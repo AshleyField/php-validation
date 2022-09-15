@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Min;
+use AshF\Validation\Rules\Min;
 use PHPUnit\Framework\TestCase;
 
 class MinTest extends TestCase

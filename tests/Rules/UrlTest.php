@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Url;
+use AshF\Validation\Rules\Url;
 use PHPUnit\Framework\TestCase;
 
 class UrlTest extends TestCase

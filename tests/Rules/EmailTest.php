@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\Email;
+use AshF\Validation\Rules\Email;
 use PHPUnit\Framework\TestCase;
 
 class EmailTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace mightygraphics\Validation\Tests;
+namespace AshF\Validation\Tests;
 
-use mightygraphics\Validation\Rules\UploadedFile;
+use AshF\Validation\Rules\UploadedFile;
 use PHPUnit\Framework\TestCase;
 
 class UploadedFileTest extends TestCase
